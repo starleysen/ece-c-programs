@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+	int choice;
+	printf("Fan Speed Controller\n");
+	printf("1.OFF\n");
+	printf("2.LOW\n");
+	printf("3.MEDIUM\n");
+	printf("4.HIGH\n");
+	printf("Enter your choice:");
+	scanf("%d",&choice);
+	switch(choice)
+	{
+		case 1:
+			printf("Fan is OFF");
+			break;
+		case 2:
+			printf("Fan speed is LOW");
+			break;
+		case 3:
+			printf("Fan speed is MEDIUM ");
+			break;
+		case 4:
+			printf("Fan speed is HIGH");
+			break;
+		default:
+			printf("Invalid choice");
+	}
+}
